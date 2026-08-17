@@ -138,9 +138,9 @@ only in an authorised private environment.
 ## Status
 
 Public research-software release: the synthetic Python pipeline, tests and
-sanitised SAS/Stata snapshot are available, and GitHub Actions passes on Python
-3.11 and 3.12. The Dockerfile is defined but has not been built on the
-development machine because no Docker runtime is installed.
+sanitised SAS/Stata snapshot are available. GitHub Actions tests Python 3.11 and
+3.12 and independently builds the Docker image and runs the synthetic pipeline
+inside the container.
 
 ## Licence and citation
 

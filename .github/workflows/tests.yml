@@ -26,3 +26,12 @@ jobs:
         run: ruff check src tests
       - name: Test
         run: pytest -q --cov=src/ipo_lottery --cov-report=term-missing
+
+  container:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t ipo-lottery-allocation .
+      - name: Run synthetic pipeline
+        run: docker run --rm ipo-lottery-allocation
