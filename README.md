@@ -137,10 +137,10 @@ only in an authorised private environment.
 
 ## Status
 
-Work in progress: the synthetic Python pipeline, tests, CI definition and
-sanitised SAS/Stata snapshot are implemented locally. The Dockerfile is defined
-but could not be built on the development machine because no Docker runtime is
-installed; GitHub publication and live CI verification remain pending.
+Public research-software release: the synthetic Python pipeline, tests and
+sanitised SAS/Stata snapshot are available, and GitHub Actions passes on Python
+3.11 and 3.12. The Dockerfile is defined but has not been built on the
+development machine because no Docker runtime is installed.
 
 ## Licence and citation
 
