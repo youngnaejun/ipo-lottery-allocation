@@ -95,6 +95,7 @@ tests/                   Behavioural and end-to-end tests
 
 ```bash
 ruff check src tests
+python -m ipo_lottery.audit
 pytest -q --cov=src/ipo_lottery --cov-report=term-missing
 ```
 
@@ -102,7 +103,8 @@ The suite checks exact sample filters, deterministic handling of duplicate
 issuer-date share classes, failure on missing required fields, highest-score
 CUSIP resolution, explicit unmatched-record reporting, a known
 expected-skewness value, the lottery threshold boundary and a complete synthetic
-run. The duplicate share-class test represents an edge case encountered during
+run. CI also fails if Git tracks a vendor-data format or a credential file. The
+duplicate share-class test represents an edge case encountered during
 construction of the research data.
 
 ## Reproducing with licensed data
