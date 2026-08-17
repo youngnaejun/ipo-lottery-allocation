@@ -20,8 +20,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -e ".[dev]"
+      - name: Audit tracked files
+        run: python -m ipo_lottery.audit
       - name: Lint
         run: ruff check src tests
       - name: Test
         run: pytest -q --cov=src/ipo_lottery --cov-report=term-missing
-
