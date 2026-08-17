@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite it using these metadata."
+title: "IPO Lottery Allocation"
+type: software
+authors:
+  - family-names: Jun
+    given-names: Youngnae
+    orcid: "https://orcid.org/0000-0002-9665-1363"
+year: 2026
+license: MIT
+repository-code: "https://github.com/youngnaejun/ipo-lottery-allocation"
