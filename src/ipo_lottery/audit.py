@@ -1,8 +1,7 @@
 """Fail closed when restricted data or credential files are tracked by Git."""
 
-from pathlib import Path
 import subprocess
-
+from pathlib import Path
 
 FORBIDDEN_SUFFIXES = {
     ".csv",
