@@ -1,0 +1,940 @@
+{
+ "ipo_returns.dta": {
+  "unit": "IPO",
+  "tables": "Tables 1, 2, 3, B1, B2",
+  "keys": [
+   "analysis_id"
+  ],
+  "columns": [
+   {
+    "name": "analysis_id",
+    "type": "numeric"
+   },
+   {
+    "name": "PERMNO",
+    "type": "numeric"
+   },
+   {
+    "name": "ipo_year",
+    "type": "numeric"
+   },
+   {
+    "name": "yr",
+    "type": "numeric"
+   },
+   {
+    "name": "ff30",
+    "type": "numeric"
+   },
+   {
+    "name": "tercile",
+    "type": "numeric"
+   },
+   {
+    "name": "skew1",
+    "type": "numeric"
+   },
+   {
+    "name": "r0",
+    "type": "numeric"
+   },
+   {
+    "name": "age_ritter",
+    "type": "numeric"
+   },
+   {
+    "name": "coskewness",
+    "type": "numeric"
+   },
+   {
+    "name": "internet",
+    "type": "numeric"
+   },
+   {
+    "name": "NASDAQ",
+    "type": "numeric"
+   },
+   {
+    "name": "NYSE",
+    "type": "numeric"
+   },
+   {
+    "name": "lnproceeds_adj1975",
+    "type": "numeric"
+   },
+   {
+    "name": "price_adj",
+    "type": "numeric"
+   },
+   {
+    "name": "price_adj_imp",
+    "type": "numeric"
+   },
+   {
+    "name": "share_overhang",
+    "type": "numeric"
+   },
+   {
+    "name": "pure_primary",
+    "type": "numeric"
+   },
+   {
+    "name": "VB",
+    "type": "numeric"
+   },
+   {
+    "name": "TT_ave",
+    "type": "numeric"
+   },
+   {
+    "name": "lagmcsi",
+    "type": "numeric"
+   },
+   {
+    "name": "lagcummktret",
+    "type": "numeric"
+   },
+   {
+    "name": "ipo_vol",
+    "type": "numeric"
+   },
+   {
+    "name": "ind_ret",
+    "type": "numeric"
+   },
+   {
+    "name": "ind_mom",
+    "type": "numeric"
+   },
+   {
+    "name": "ind_vol",
+    "type": "numeric"
+   },
+   {
+    "name": "ind_turn",
+    "type": "numeric"
+   },
+   {
+    "name": "r2_bhar_1y",
+    "type": "numeric"
+   },
+   {
+    "name": "r2_bhar_3y",
+    "type": "numeric"
+   },
+   {
+    "name": "r2_bhar_5y",
+    "type": "numeric"
+   },
+   {
+    "name": "r3_bhar_1y",
+    "type": "numeric"
+   },
+   {
+    "name": "r3_bhar_3y",
+    "type": "numeric"
+   },
+   {
+    "name": "r3_bhar_5y",
+    "type": "numeric"
+   }
+  ]
+ },
+ "revisions.dta": {
+  "unit": "IPO (price-revision sample and recovered IPOs)",
+  "tables": "Tables 6, 7, B3, B4",
+  "keys": [
+   "analysis_id"
+  ],
+  "columns": [
+   {
+    "name": "analysis_id",
+    "type": "numeric"
+   },
+   {
+    "name": "PERMNO",
+    "type": "numeric"
+   },
+   {
+    "name": "ipo_year",
+    "type": "numeric"
+   },
+   {
+    "name": "yr",
+    "type": "numeric"
+   },
+   {
+    "name": "ff30",
+    "type": "numeric"
+   },
+   {
+    "name": "restored61",
+    "type": "numeric"
+   },
+   {
+    "name": "skew1",
+    "type": "numeric"
+   },
+   {
+    "name": "r0",
+    "type": "numeric"
+   },
+   {
+    "name": "rev_signed",
+    "type": "numeric"
+   },
+   {
+    "name": "rev_up",
+    "type": "numeric"
+   },
+   {
+    "name": "rpos",
+    "type": "numeric"
+   },
+   {
+    "name": "range_width",
+    "type": "numeric"
+   },
+   {
+    "name": "share_revision_raw",
+    "type": "numeric"
+   },
+   {
+    "name": "proceeds_revision",
+    "type": "numeric"
+   },
+   {
+    "name": "sample_price",
+    "type": "numeric"
+   },
+   {
+    "name": "sample_sr_full",
+    "type": "numeric"
+   },
+   {
+    "name": "sample_proceeds",
+    "type": "numeric"
+   },
+   {
+    "name": "sample_rpos",
+    "type": "numeric"
+   },
+   {
+    "name": "mkt_reg_ew",
+    "type": "numeric"
+   },
+   {
+    "name": "mkt_reg_ew_pos",
+    "type": "numeric"
+   },
+   {
+    "name": "lagmcsi",
+    "type": "numeric"
+   },
+   {
+    "name": "lagcummktret",
+    "type": "numeric"
+   },
+   {
+    "name": "ipo_vol",
+    "type": "numeric"
+   },
+   {
+    "name": "age_ritter",
+    "type": "numeric"
+   },
+   {
+    "name": "coskewness",
+    "type": "numeric"
+   },
+   {
+    "name": "internet",
+    "type": "numeric"
+   },
+   {
+    "name": "NASDAQ",
+    "type": "numeric"
+   },
+   {
+    "name": "NYSE",
+    "type": "numeric"
+   },
+   {
+    "name": "ln_amount_filed_adj1975",
+    "type": "numeric"
+   },
+   {
+    "name": "share_overhang",
+    "type": "numeric"
+   },
+   {
+    "name": "pure_primary",
+    "type": "numeric"
+   },
+   {
+    "name": "VB",
+    "type": "numeric"
+   },
+   {
+    "name": "uw_rank_ave",
+    "type": "numeric"
+   },
+   {
+    "name": "ind_ret",
+    "type": "numeric"
+   },
+   {
+    "name": "ind_mom",
+    "type": "numeric"
+   },
+   {
+    "name": "ind_vol",
+    "type": "numeric"
+   },
+   {
+    "name": "ind_turn",
+    "type": "numeric"
+   }
+  ]
+ },
+ "t4_panel.dta": {
+  "unit": "FF30 industry x filing quarter (completed IPOs)",
+  "tables": "Table 4, IA1, IA2",
+  "keys": [
+   "ff30",
+   "time_id"
+  ],
+  "columns": [
+   {
+    "name": "ff30",
+    "type": "numeric"
+   },
+   {
+    "name": "time_id",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_skew",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_return",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_momentum",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_ivol",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_turnover",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_lnfirms",
+    "type": "numeric"
+   },
+   {
+    "name": "skew_l1",
+    "type": "numeric"
+   },
+   {
+    "name": "skew_l2",
+    "type": "numeric"
+   },
+   {
+    "name": "skew_l3",
+    "type": "numeric"
+   },
+   {
+    "name": "skew_l4",
+    "type": "numeric"
+   },
+   {
+    "name": "n_primary",
+    "type": "numeric"
+   },
+   {
+    "name": "nominal_total",
+    "type": "numeric"
+   },
+   {
+    "name": "n_restored",
+    "type": "numeric"
+   },
+   {
+    "name": "avg_primary",
+    "type": "numeric"
+   },
+   {
+    "name": "outcome_total",
+    "type": "numeric"
+   },
+   {
+    "name": "q_age",
+    "type": "numeric"
+   },
+   {
+    "name": "q_lnexpected",
+    "type": "numeric"
+   },
+   {
+    "name": "q_overhang",
+    "type": "numeric"
+   },
+   {
+    "name": "q_uwrank",
+    "type": "numeric"
+   },
+   {
+    "name": "q_vcshare",
+    "type": "numeric"
+   },
+   {
+    "name": "q_primaryshare",
+    "type": "numeric"
+   },
+   {
+    "name": "q_optimism",
+    "type": "numeric"
+   },
+   {
+    "name": "q_ipovol",
+    "type": "numeric"
+   },
+   {
+    "name": "n_age",
+    "type": "numeric"
+   },
+   {
+    "name": "n_lnexpected",
+    "type": "numeric"
+   },
+   {
+    "name": "n_overhang",
+    "type": "numeric"
+   },
+   {
+    "name": "n_uwrank",
+    "type": "numeric"
+   },
+   {
+    "name": "n_vcshare",
+    "type": "numeric"
+   },
+   {
+    "name": "n_primaryshare",
+    "type": "numeric"
+   },
+   {
+    "name": "n_optimism",
+    "type": "numeric"
+   },
+   {
+    "name": "n_ipovol",
+    "type": "numeric"
+   },
+   {
+    "name": "adjusted_total",
+    "type": "numeric"
+   },
+   {
+    "name": "n_ipo",
+    "type": "numeric"
+   },
+   {
+    "name": "t11",
+    "type": "numeric"
+   },
+   {
+    "name": "t12",
+    "type": "numeric"
+   },
+   {
+    "name": "t13",
+    "type": "numeric"
+   },
+   {
+    "name": "q_indret",
+    "type": "numeric"
+   },
+   {
+    "name": "q_indmom",
+    "type": "numeric"
+   },
+   {
+    "name": "q_indvol",
+    "type": "numeric"
+   },
+   {
+    "name": "q_indturn",
+    "type": "numeric"
+   },
+   {
+    "name": "q_lnfirms",
+    "type": "numeric"
+   },
+   {
+    "name": "l_indret",
+    "type": "numeric"
+   },
+   {
+    "name": "l_indmom",
+    "type": "numeric"
+   },
+   {
+    "name": "l_indvol",
+    "type": "numeric"
+   },
+   {
+    "name": "l_indturn",
+    "type": "numeric"
+   },
+   {
+    "name": "l_lnfirms",
+    "type": "numeric"
+   },
+   {
+    "name": "l_age",
+    "type": "numeric"
+   },
+   {
+    "name": "l_lnexpected",
+    "type": "numeric"
+   },
+   {
+    "name": "l_overhang",
+    "type": "numeric"
+   },
+   {
+    "name": "l_uwrank",
+    "type": "numeric"
+   },
+   {
+    "name": "l_vcshare",
+    "type": "numeric"
+   },
+   {
+    "name": "l_primaryshare",
+    "type": "numeric"
+   },
+   {
+    "name": "l_optimism",
+    "type": "numeric"
+   },
+   {
+    "name": "l_ipovol",
+    "type": "numeric"
+   },
+   {
+    "name": "q_cosk",
+    "type": "numeric"
+   },
+   {
+    "name": "l_cosk",
+    "type": "numeric"
+   },
+   {
+    "name": "yr",
+    "type": "numeric"
+   },
+   {
+    "name": "market_return_qminus1_candidate",
+    "type": "numeric"
+   },
+   {
+    "name": "proceeds",
+    "type": "numeric"
+   }
+  ]
+ },
+ "t5_panel.dta": {
+  "unit": "FF30 industry x filing quarter (filings)",
+  "tables": "Table 5, IA3",
+  "keys": [
+   "ff30",
+   "time_id"
+  ],
+  "columns": [
+   {
+    "name": "ff30",
+    "type": "numeric"
+   },
+   {
+    "name": "time_id",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_skew",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_return",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_momentum",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_ivol",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_turnover",
+    "type": "numeric"
+   },
+   {
+    "name": "lag_lnfirms",
+    "type": "numeric"
+   },
+   {
+    "name": "skew_l1",
+    "type": "numeric"
+   },
+   {
+    "name": "skew_l2",
+    "type": "numeric"
+   },
+   {
+    "name": "skew_l3",
+    "type": "numeric"
+   },
+   {
+    "name": "skew_l4",
+    "type": "numeric"
+   },
+   {
+    "name": "n_primary",
+    "type": "numeric"
+   },
+   {
+    "name": "nominal_total",
+    "type": "numeric"
+   },
+   {
+    "name": "n_restored",
+    "type": "numeric"
+   },
+   {
+    "name": "avg_primary",
+    "type": "numeric"
+   },
+   {
+    "name": "outcome_total",
+    "type": "numeric"
+   },
+   {
+    "name": "q_age",
+    "type": "numeric"
+   },
+   {
+    "name": "q_lnexpected",
+    "type": "numeric"
+   },
+   {
+    "name": "q_overhang",
+    "type": "numeric"
+   },
+   {
+    "name": "q_uwrank",
+    "type": "numeric"
+   },
+   {
+    "name": "q_vcshare",
+    "type": "numeric"
+   },
+   {
+    "name": "q_primaryshare",
+    "type": "numeric"
+   },
+   {
+    "name": "q_optimism",
+    "type": "numeric"
+   },
+   {
+    "name": "q_ipovol",
+    "type": "numeric"
+   },
+   {
+    "name": "n_age",
+    "type": "numeric"
+   },
+   {
+    "name": "n_lnexpected",
+    "type": "numeric"
+   },
+   {
+    "name": "n_overhang",
+    "type": "numeric"
+   },
+   {
+    "name": "n_uwrank",
+    "type": "numeric"
+   },
+   {
+    "name": "n_vcshare",
+    "type": "numeric"
+   },
+   {
+    "name": "n_primaryshare",
+    "type": "numeric"
+   },
+   {
+    "name": "n_optimism",
+    "type": "numeric"
+   },
+   {
+    "name": "n_ipovol",
+    "type": "numeric"
+   },
+   {
+    "name": "adjusted_total",
+    "type": "numeric"
+   },
+   {
+    "name": "n_ipo",
+    "type": "numeric"
+   },
+   {
+    "name": "t11",
+    "type": "numeric"
+   },
+   {
+    "name": "t12",
+    "type": "numeric"
+   },
+   {
+    "name": "t13",
+    "type": "numeric"
+   },
+   {
+    "name": "q_indret",
+    "type": "numeric"
+   },
+   {
+    "name": "q_indmom",
+    "type": "numeric"
+   },
+   {
+    "name": "q_indvol",
+    "type": "numeric"
+   },
+   {
+    "name": "q_indturn",
+    "type": "numeric"
+   },
+   {
+    "name": "q_lnfirms",
+    "type": "numeric"
+   },
+   {
+    "name": "l_indret",
+    "type": "numeric"
+   },
+   {
+    "name": "l_indmom",
+    "type": "numeric"
+   },
+   {
+    "name": "l_indvol",
+    "type": "numeric"
+   },
+   {
+    "name": "l_indturn",
+    "type": "numeric"
+   },
+   {
+    "name": "l_lnfirms",
+    "type": "numeric"
+   },
+   {
+    "name": "l_age",
+    "type": "numeric"
+   },
+   {
+    "name": "l_lnexpected",
+    "type": "numeric"
+   },
+   {
+    "name": "l_overhang",
+    "type": "numeric"
+   },
+   {
+    "name": "l_uwrank",
+    "type": "numeric"
+   },
+   {
+    "name": "l_vcshare",
+    "type": "numeric"
+   },
+   {
+    "name": "l_primaryshare",
+    "type": "numeric"
+   },
+   {
+    "name": "l_optimism",
+    "type": "numeric"
+   },
+   {
+    "name": "l_ipovol",
+    "type": "numeric"
+   },
+   {
+    "name": "q_cosk",
+    "type": "numeric"
+   },
+   {
+    "name": "l_cosk",
+    "type": "numeric"
+   },
+   {
+    "name": "yr",
+    "type": "numeric"
+   },
+   {
+    "name": "skew_l5",
+    "type": "numeric"
+   },
+   {
+    "name": "n_main",
+    "type": "numeric"
+   },
+   {
+    "name": "n_comp",
+    "type": "numeric"
+   },
+   {
+    "name": "n_wd",
+    "type": "numeric"
+   },
+   {
+    "name": "n_pp",
+    "type": "numeric"
+   },
+   {
+    "name": "n_open",
+    "type": "numeric"
+   },
+   {
+    "name": "n_unk",
+    "type": "numeric"
+   },
+   {
+    "name": "n_no_unk",
+    "type": "numeric"
+   },
+   {
+    "name": "n_all_unk",
+    "type": "numeric"
+   },
+   {
+    "name": "n_no_fund_screen",
+    "type": "numeric"
+   },
+   {
+    "name": "n_priorA",
+    "type": "numeric"
+   },
+   {
+    "name": "n_bridge",
+    "type": "numeric"
+   },
+   {
+    "name": "n_day",
+    "type": "numeric"
+   },
+   {
+    "name": "n_first",
+    "type": "numeric"
+   },
+   {
+    "name": "n_first_wd",
+    "type": "numeric"
+   },
+   {
+    "name": "n_common_mix",
+    "type": "numeric"
+   },
+   {
+    "name": "n_common_sdc",
+    "type": "numeric"
+   },
+   {
+    "name": "n_cmix_wd",
+    "type": "numeric"
+   },
+   {
+    "name": "n_csdc_wd",
+    "type": "numeric"
+   },
+   {
+    "name": "n_uniform",
+    "type": "numeric"
+   },
+   {
+    "name": "n_uniform_wd",
+    "type": "numeric"
+   },
+   {
+    "name": "market_return_qminus1_candidate",
+    "type": "numeric"
+   },
+   {
+    "name": "all_amount",
+    "type": "numeric"
+   },
+   {
+    "name": "all_valid",
+    "type": "numeric"
+   },
+   {
+    "name": "all_n",
+    "type": "numeric"
+   },
+   {
+    "name": "all_empty",
+    "type": "numeric"
+   },
+   {
+    "name": "all_missing",
+    "type": "numeric"
+   },
+   {
+    "name": "completed_amount",
+    "type": "numeric"
+   },
+   {
+    "name": "completed_valid",
+    "type": "numeric"
+   },
+   {
+    "name": "completed_n",
+    "type": "numeric"
+   },
+   {
+    "name": "completed_empty",
+    "type": "numeric"
+   },
+   {
+    "name": "completed_missing",
+    "type": "numeric"
+   },
+   {
+    "name": "all_uw",
+    "type": "numeric"
+   },
+   {
+    "name": "all_uw_valid",
+    "type": "numeric"
+   },
+   {
+    "name": "all_uw_n",
+    "type": "numeric"
+   }
+  ]
+ }
+}
