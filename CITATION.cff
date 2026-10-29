@@ -6,6 +6,7 @@ authors:
   - family-names: Jun
     given-names: Youngnae
     orcid: "https://orcid.org/0000-0002-9665-1363"
-year: 2026
+version: "1.0.0"
+date-released: "2026-10-29"
 license: MIT
 repository-code: "https://github.com/youngnaejun/ipo-lottery-allocation"
